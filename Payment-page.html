@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <nav class="nav collapsible">
+            <a href="#"><img class="logo_image" src="images/logo-png.png" alt=""></a>
+            <img class="nav_toggler nav-image" src="images/nav.png" alt="">
+            <ul class="list nav_list collapsible__content">
+                <li class="nav_item"><img class="image_nav" src="images/home.png" alt=""><a href="Website.html">Home</a></li>
+                <li class="nav_item"><img class="image_nav" src="images/pizza-deliver.png" alt=""><a href="#">Take-Away</a></li>
+                <li class="nav_item"><img class="image_nav" src="images/support.png" alt=""><a href="Contact_for_web.html">Contact</a></li> 
+            </ul>
+        </nav>        
+    </section>
+    <section class="body_payment">
+        <div class="container3">
+            <h1>Confirm Your Payment</h1>
+            <div class="first-row">
+                <div class="owner">
+                    <h3>Owner</h3>
+                    <div class="input-field">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="cvv">
+                    <h3>CVV</h3>
+                    <div class="input-field">
+                        <input type="password">
+                    </div>
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="card-number">
+                    <h3>Card Number</h3>
+                    <div class="input-field">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="third-row">
+                <h3>Card Number</h3>
+                <div class="selection">
+                    <div class="date">
+                        <select name="months" id="months">
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select name="years" id="years">
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                        </select>
+                    </div>
+                    <div class="cards">
+                        <img class="image_payment"src="images/mastercard.png" alt="">
+                        <img class="image_payment"src="images/visa.png" alt="">
+                        <img class="image_payment"src="images/paypal.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="">Confirm</a>
+        </div>
+    </section>
+    <section>
+        <footer class="block block--dark footer">
+            <div class="container grid footer__sections">
+                <section class="collapsible collapsible--expanded footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Our Pizza</h2>
+                        <img class="image__chevron footer__chevron collapsible__chevron" src="images/chevron.png" alt="">
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="footer__list">
+                            <li><a href="">Pizza Types</a></li>
+                            <li><a href="">Nutritional Info</a></li>
+                            <li><a href="">Ingredients</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">About</h2>
+                        <img class="image__chevron footer__chevron collapsible__chevron" src="images/chevron.png" alt="">
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="footer__list">
+                            <li><a href="">Prinz Pizza</a></li>
+                            <li><a href="">Deals</a></li>
+                            <li><a href="">Customers</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Careers</h2>
+                        <img class="image__chevron footer__chevron collapsible__chevron" src="images/chevron.png" alt="">
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="footer__list">
+                            <li><a href="">Corperate</a></li>
+                            <li><a href="">Drivers</a></li>
+                            <li><a href="">Chefs</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="footer__brand">
+                    <img class="images__copyright" src="images/logo-png.png" alt="">
+                    <p class="footer__copyright">Copyright 2023 Prince Sedem</p>
+                </section>
+            </div>
+        
+        </footer>        
+    </section>
+
+    <script src="js/test.js"></script>
+    <script src="js/script-expanding.js"></script>
+    
+</body>
+</html>
